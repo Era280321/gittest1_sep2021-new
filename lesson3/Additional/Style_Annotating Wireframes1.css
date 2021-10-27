@@ -1,0 +1,158 @@
+:root{
+    --color_blue: #B4CAD6;
+    --color_grey: #E7E7E8;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--color_blue);
+}
+
+.container{
+    width: 900px;
+    border: 5px solid black;
+    margin: 50px auto;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    height: 60px;
+    border-bottom: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main{
+    display: flex;
+    flex-grow: 1;
+}
+.left_menu{
+    width:170px;
+    border-right: 5px solid black;
+    padding: 0;
+}
+
+.main_right{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+.header_item, .menu_item{
+    height: 40px;
+    width: 150px;
+    background-color: var(--color_grey);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.big_picture{
+    height: 340px;
+    display: flex;
+    border-bottom: 5px solid black;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.big_picture_tree{
+    height: 280px;
+    width: 630px;
+    background-color: var(--color_grey);
+
+}
+
+.reasons{
+    height: 120px;
+    display: flex;
+    border-bottom: 5px solid black;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.reasons_item{
+    height: 80px;
+    width: 130px;
+    background-color: var(--color_grey);
+}
+
+
+.product_content{
+    height: 800px;
+    display: flex;
+    border-bottom: 5px solid black;
+    align-items: center;
+}
+
+.product_content_left{
+    height: 100%;
+    width: 75%;
+    border: 5px solid black;
+    border-left:0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+
+}
+
+.product_content_right{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-content: space-evenly;
+    padding-top: 30px;
+    padding-left: 7px;
+    box-sizing: border-box;
+}
+
+.product_content_left_item{
+    height: 100px;
+    width: 220px;
+    background-color: var(--color_grey);
+}
+
+.product_content_left_item_last {
+    height: 40px;
+    width: 100px;
+    background-color: var(--color_grey);
+}
+
+
+.product_content_right_item{
+    height: 70px;
+    width: 150px;
+    background-color: var(--color_grey);
+    margin: 5px;
+}
+
+.bottom_text{
+    height: 25px;
+    width: 600px;
+    background-color: var(--color_grey);
+}
+
+.bottom_ending{
+    height: 25px;
+    width: 100px;
+    background-color: var(--color_grey);
+}
+
+
+.bottom{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}

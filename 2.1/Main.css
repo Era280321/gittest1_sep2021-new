@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background: black;
+}
+
+.wrap{
+    width: 500px;
+    height: 800px;
+    justify-content: center;
+    margin: 20px;
+    background: black;
+}
+.target{
+    background: #c71dd3; color: darkgray
+}
+.target2{
+    background: #c71dd3; color: #2c0909
+}
+.point{
+    font-size: 50px;
+}
+.target2:hover{
+    background: #598f7d; color: darkgray
+}
+li{
+    font-size: 20px;
+    list-style: none;
+    margin-bottom: 5px;
+}
+a{
+    text-decoration: none;
+    color: darkgray;
+}
+a:hover{
+    color: #598f7d;
+    font-size: 30px;
+}
+img:hover{
+    border: 10px solid #c71dd3;
+}

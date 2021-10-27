@@ -1,0 +1,56 @@
+:root{
+    --color_blue: #2269BB;
+    --color_navy: #16437A;
+}
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    padding: 3px 8px 10px 5px ;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: white;
+    color:white;
+}
+.box-height-small{
+    height: 150px;
+}
+
+.box-height-big{
+    height: 300px;
+}
+
+.kabobs-container{
+    display: flex;
+    column-gap: 15px;
+}
+
+.kabobs-types{
+    background-color: var(--color_navy);
+    width: 30%;
+}
+
+.kabobs-window-essentials{
+    flex-grow: 1;
+}
+
+.kabobs-margin{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.kabobs-menu{
+    background-color: var(--color_blue);
+    font-size: x-large;
+}
