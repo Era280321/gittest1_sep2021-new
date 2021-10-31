@@ -302,7 +302,6 @@ table {
 
 .business_lunch__content{
   display: flex;
-  flex-direction: column;
 }
 
 .business_lunch__content__left{
