@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .father{
+        width: 900px;
+        background-color: #2BB673;
+        height: 600px;
+        position: relative;
+        left: 20px;
+
+    }
+
+    .mother{
+        width: 900px;
+        height: 600px;
+        background-color: #3AC6EA;
+    }
+
+    .wrap{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        position: absolute;
+        bottom: -100px;
+    }
+    .box{
+        width: 200px;
+        background-color: #c71dd3;
+        height: 200px;
+        /*position: relative;*/
+        /*bottom: 0;*/
+    }
+    .history__top{
+        display: flex;
+    }
+
+
+    .history__top_item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    .history{
+        height: 100vh;
+        background-color: white;
+    }
+
+</style>
+<body>
+<div class="father">
+    <div class="wrap">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</div>
+<div class="mother">
+</div>
+
+
+<div class="history">
+    <div class="history__top">
+        <div class="history__top_item">
+            <div class="history__top_item__image"><img src="image/Mask%20Group.png" alt="Food"></div>
+            <h3>Магическая Атмосфера</h3>
+            <p> В нашем заведении царит магическая атмосфера наполненная вкусными ароматами</p>
+        </div>
+        <div class="history__top_item">
+            <div class="history__top_item__image"><img src="image/Mask%20Group.png" alt="Food"></div>
+            <h3>Магическая Атмосфера</h3>
+            <p> В нашем заведении царит магическая атмосфера наполненная вкусными ароматами</p>
+        </div>
+        <div class="history__top_item">
+            <div class="history__top_item__image"><img src="image/Mask%20Group.png" alt="Food"></div>
+            <h3>Магическая Атмосфера</h3>
+            <p> В нашем заведении царит магическая атмосфера наполненная вкусными ароматами</p>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
