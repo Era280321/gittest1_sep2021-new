@@ -1,0 +1,114 @@
+@media screen and (max-width: 400px ) {
+
+    .first-screen-left h1{
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 55px;
+        letter-spacing: -0.4px;
+        color: #1652AC;
+        text-align: center;
+    }
+
+
+    .mobile_position{
+        position: absolute;
+        top: 290px;
+    }
+
+    .margin-for-mobile{
+        margin-bottom: 450px;
+    }
+
+    .first-screen-left .first-screen-text::before{
+        top:-430px;
+        margin: 0 70px;
+    }
+
+    .first-screen-left .first-screen-text::after{
+        display: none;
+    }
+
+    .modern-standards_description{
+        margin-top: 200px;
+        margin-left: 20px;
+        margin-right: 20px;
+        max-width: 360px;
+    }
+
+    .modern-standards_description h2{
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .modern-standards_next_mobile{
+        position: absolute;
+        right: 400px;
+    }
+
+    .modern-standards_description{
+        margin-top: 900px;
+        margin-bottom: 70px;
+    }
+
+    .card-body p{
+
+        line-height: 32px;
+    }
+
+    .card-body{
+        width: 350px;
+    }
+
+    .characteristics h4{
+        margin: 100px 10px;
+
+    }
+
+    .characteristics-items p{
+
+        margin-bottom:35px;
+        margin-left: 10px;
+    }
+
+    .go-relative{
+        visibility: hidden;
+    }
+
+    .carousel-indicators [data-bs-target]{
+        left: 0;
+
+    }
+
+    .contact-us h6{
+display: none;
+    }
+
+    .contact-us{
+        position: relative;
+    }
+
+    .contact-us-image{
+        position: absolute;
+        top: 70px;
+    }
+
+    .contact-us-box{
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+
+    .footer-item{
+        margin: 30px 0;
+    }
+
+    .last-item{
+        padding-top:0;
+        padding-bottom: 50px;
+    }
+
+    .footer-item-last{
+        margin: 0 0 0 0;
+    }
+
+
+}
