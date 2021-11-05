@@ -1,0 +1,606 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Tinos', serif;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header{
+    height: 100vh;
+    background: url("../image/bg.png") no-repeat center/cover;
+}
+
+.header__top{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__item img{
+    width: 20px;
+}
+
+.nav{
+    display: flex;
+    column-gap: 23px;
+}
+
+.nav__item a{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.header__menu{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    column-gap: 35px;
+}
+
+.header__phone {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 155px;
+    border-left: 2px solid #fff;
+    padding-left: 15px;;
+}
+
+.header__contact{
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+}
+
+.header__button{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 0px 14px;
+    background-color: #FF7400;
+    height: 47px;
+    border: none;
+    cursor: pointer;
+}
+
+.header__title{
+    font-weight: normal;
+    color: #D67E35;
+    margin-top: 203px;
+    max-width: 500px;
+}
+
+.header__title h2{
+    font-size: 50px;
+    line-height: 57px;
+    margin-left: 24px;
+}
+
+.header__title h1{
+    font-size: 80px;
+    line-height: 92px;
+}
+
+.header__title p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+
+}
+
+.header__title p::before,
+.header__title p::after{
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background-color: #C4C4C4;
+;
+}
+
+.header__title p::before{
+    margin-right: 10px;
+}
+
+.header__title p::after{
+    margin-left: 10px;
+}
+
+.header__main_btn{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__btn_mobile{
+    display: none;
+    width: 30px;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.nav__btn_mobile div{
+    height: 3px;
+    background-color:#FF7400;
+    border-radius: 50px;
+}
+
+.history{
+    height: 100vh;
+    background-color: white;
+    position: relative;
+    padding: 150px;
+    text-align: center;
+}
+
+.history__top_item{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 40px 20px rgba(227, 227, 227, 0.27);
+    background-color:white;
+    padding: 20px;
+}
+
+.history__top{
+    display: flex;
+    justify-content:space-evenly;
+    position: absolute;
+    top: -100px;
+    width: 1200px;
+    flex-wrap: wrap;
+
+}
+
+.history__top_item__image{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.history__top_item h3{
+    font-size: 26px;
+    line-height: 30px;
+    margin: 10px 30px;
+}
+
+.history__top_item p {
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 300px;
+    margin: 10px 10px;
+    color: #656363;
+}
+
+.gold{
+    color: #BC9060;
+}
+
+.orange{
+    color: #D67E35;
+}
+
+.history__main{
+    margin-top: 200px;
+    margin-bottom:100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.history__main_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.history__main_item h2{
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.history__main_item p{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #656363;
+    margin-bottom: 50px;
+}
+
+.history__main_item_left{
+    margin: 130px;
+    justify-content: center;
+    text-align: center;
+}
+
+.history__numbers{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.history__numbers h4{
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #BC9060;
+}
+
+.history__numbers p{
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+    font-family: Open Sans;
+}
+
+.business_lunch{
+    height: 10vh;
+    background-color:black;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.business_lunch__content{
+    display: flex;
+}
+
+.business_lunch__content__left{
+    padding-right: 350px;
+    margin-left: 50px;
+}
+
+.business_lunch__content h4{
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+    margin-bottom: 20px;
+}
+
+
+.business_lunch__content p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.business_lunch__content__button{
+    display: flex;
+    align-items: center;
+    width: 300px;
+
+}
+
+.our_dishes{
+    height: 110vh;
+    background-color: white;
+}
+
+.our_dishes__content{
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.our_dishes__content h3{
+    text-align: center;
+    margin: 100px;
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+}
+
+.our_dishes__content__description{
+    display: flex;
+    column-gap: 10px;
+    margin-left: 50px;
+}
+
+.our_dishes__content__description img{
+    margin: 10px;
+}
+
+
+.our_dishes__content__description__prices__item{
+    display: flex;
+    align-items: center;
+}
+
+.our_dishes__content__description__prices__item p{
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 10px  ;
+}
+
+.dishes__stripes{
+    width: 200px;
+    height: 24px;
+    border-bottom: 1px dashed black;
+    margin: 0 5px;
+}
+
+.hamburger_mini{
+    display: flex;
+}
+
+.our_menu{
+    height: 180vh;
+    background: url("../image/bar-1869656_1920 2.png") no-repeat center/cover;
+}
+
+.our_menu_content h3{
+    padding-top:175px;
+    text-align: center;
+    font-family: Tinos;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.our_menu_hamburgers_item{
+    background-color: white;
+    padding: 60px 60px 30px;
+    justify-content: center;
+    position: relative;
+    align-content: center;
+}
+
+.our_menu_hamburgers_item_image img{
+    border-radius: 50%;
+    margin: 20px 15px;
+    position: relative;
+}
+
+.our_menu_hamburgers_item_image_gram{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left:200px;
+    background-color: #D67E34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: Cookie;
+    font-size: 30px;
+    line-height: 33px;
+    border-radius: 100%;
+    border: 10px solid white;
+}
+
+
+.our_menu_hamburgers_item h5{
+    font-family: Tinos;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin: 10px;
+}
+
+.our_menu_hamburgers_item p{
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    max-width: 220px;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.our_menu_hamburgers_item button{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background-color: #D67E34;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    width: 220px;
+    margin: 15px 20px 0;
+}
+
+.our_menu_hamburgers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+}
+
+.our_menu_hamburgers_item_recommended{
+    background: #D67E34;
+    font-family: Open Sans;
+    font-size: 13px;
+    line-height: 18px;
+
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    padding: 10px;
+    top:0px;
+    left: 0px;
+}
+
+
+.feedback{
+    height: 40vh;
+    background-color:#E5E5E5;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.feedback__content_text{
+    margin: 80px 150px 20px;
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+
+.feedback__content img{
+    border-radius: 100%;
+}
+
+.feedback__from_title{
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+    margin: 10px;
+}
+
+.feedback__from_name{
+    font-family: Open Sans;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.navigation__item{
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+}
+
+.gray_background{
+    background-color:#C4C4C4;
+}
+
+.orange_border{
+    border: 1px solid #D67E34;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+}
+
+
+.food_gallery{
+    height: 110vh;
+    background-color: white;
+    text-align: center;
+}
+
+.food_gallery__left{
+    display: flex;
+    column-gap: 30px;
+    margin: 30px;
+}
+
+.food_gallery h3{
+    font-family: Tinos;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    margin: 100px 0 50px;
+}
+
+.our_cook{
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+}
+
+.our_cook h3 {
+    font-family: Tinos;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    margin-bottom:100px ;
+
+}
+
+.our_cook_photos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    height: 100vh;
+    background: url("../image/st-826688_1920 1.png") no-repeat center/cover;
+}
