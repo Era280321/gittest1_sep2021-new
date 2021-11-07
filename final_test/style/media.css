@@ -1,0 +1,320 @@
+@media screen and (max-width: 400px ){
+    .mobile_display{
+        display: none;
+    }
+
+    .navbar-dark .navbar-toggler-icon {
+        background-image: url( "../img/go_left.png");
+    }
+
+    .nav-item-mobile{
+        display:unset;
+    }
+
+    .navbar>.container-fluid{
+justify-content: flex-start;
+    }
+
+    .basic-info-top-item-text h1{
+        font-size: 20px;
+        line-height: 20px;
+        margin: 0;
+    }
+
+    .disappear_mobile{
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+    .basic-info-top-item-text{
+        width: 150px;
+    }
+
+    .basic-info-main{
+        flex-direction: column-reverse;
+    }
+
+    .whatsapp{
+        border-radius: 2px;
+        margin: 0;
+        padding: 0 15px 0 10px;
+    }
+
+    .basic-info-top-item-text p{
+        font-size: 8px;
+        line-height: 10px;
+        width: 120px;
+    }
+
+
+    .basic-info-top-item img{
+        width: 50px;
+        margin: 0;
+    }
+
+    .basic-info-top-item-text h2{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+
+    }
+
+    .whatsapp{
+        margin: 10px 0 10px 0;
+        width: 160px;
+
+    }
+
+
+    .whatsapp img{
+        height: 17px;
+        width: auto;
+        margin: 3px;
+
+    }
+
+    .catalogue_btn{
+        width: 34px;
+        height: 34px;
+    }
+
+    .find_btn{
+        width: 34px;
+        height: 40px;}
+
+    .find_item{
+        width: 300px;
+    }
+
+    .find_btn img{
+        display:unset;
+    }
+
+
+
+    .discounts-container{
+        flex-direction: column;
+    }
+
+
+    .carousel-item-right-image{
+        width: 370px;
+        height: 300px;
+    }
+
+.carousel-main-img{
+    width: 370px;
+    height: 300px;
+
+    border-radius: 10%;
+}
+
+    .carousel-item-left h5{
+        font-size: 20px;
+        line-height: 20px;
+
+        margin-top: 0px;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        left: 0px;
+        bottom: +50px;
+        color: #fff;
+        text-align: center;
+
+    }
+
+    .carousel-item-left a{
+        font-size: 16px;
+        line-height: 17px;
+
+    }
+
+    .carousel-price{
+        margin: 10px 0;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-items: flex-start;
+    }
+
+    .carousel-price-today{
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 33px;
+        text-align: start;
+
+    }
+
+    .carousel-price-regular{
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration-line: line-through;
+
+        color: #C2C5DA;
+        margin-left: 0;
+    }
+
+    .carousel-item-right img{
+        width: 170px;
+    }
+
+    .carousel-item-right{
+        width: 25%;
+    }
+
+.discounts-right{
+    justify-items: center;
+    align-items: center;
+    flex-direction: unset;
+    column-gap: 10px;
+    margin-top: 20px;
+}
+
+    .cart_btn-small{
+        width: 32px;
+        height: 32px;
+
+    }
+
+    .goods_line_item{
+        width: 350px;
+        height: 184px;
+
+    }
+
+    .goods_line_item_left{
+        margin:30px 40px 0 30px;
+    }
+
+    .goods_line_item_left button{
+
+        margin-top: 15px;
+    }
+
+    .goods_line_item_left h4{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+
+        color: #0A1A2C;
+    }
+
+    .goods_line_item_left p{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+
+        color: #0A1A2C;
+    }
+
+    .discounts-right-item-description h5{
+        font-size: 16px;
+        line-height: 23px;
+        color: #0A1A2C;
+    }
+
+    .discounts-right-item-description p{
+        font-size: 12px;
+        line-height: 14px;
+        color: #525252;
+    }
+
+    .discounts-right-item-prices-today{
+        font-size: 20px;
+        line-height: 23px;
+
+        color: #FFB800;
+    }
+
+    .discounts-right-item-prices-regular{
+        font-size: 12px;
+        line-height: 16px;
+        text-decoration-line: line-through;
+
+        color: #C2C5DA;
+        margin: 0 20px 0 5px;
+    }
+
+    .reserved{
+        display: unset;
+    }
+
+    .goods_sheet_left{
+        width: 195px;
+    }
+    .goods_sheet_left_sleeve img{
+        width: 150px;
+        height: auto;
+    }
+
+    .goods_sheet_left h3{
+        font-size: 12px;
+        line-height: 17px;
+        width: 138px;
+
+    }
+
+    .like{
+        margin: 0 15px;
+    }
+
+    .news-main_container{
+        flex-direction: column;
+    }
+
+    .news_arrow{
+        display: none;
+    }
+
+    .date{
+        margin-top: 30px;
+    }
+
+    .footer_main_container{
+        flex-direction: column;
+    }
+
+    .footer_end-main{
+        flex-direction: column;
+    }
+
+    .footer_item_right_connect{
+        flex-direction: column;
+        align-items: start;
+        margin: 30px 0;
+    }
+
+    .find_btn{
+        width: 110px;
+        height: 53px;
+
+        background: #005BB9;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+
+
+    .social{
+        justify-content: flex-start;
+    }
+    .signed{
+        padding-left: 20px;
+    }
+
+
+
+
+}

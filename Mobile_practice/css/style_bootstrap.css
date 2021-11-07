@@ -56,27 +56,20 @@ table {
 }
 
 .header__top{
-    padding-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding-top: 10px;
 }
 
 .nav__item img{
     width: 20px;
 }
 
-.nav{
-    display: flex;
-    column-gap: 23px;
-}
-
-.nav__item a{
+.navbar-dark .navbar-nav .nav-link {
     font-weight: bold;
     font-size: 14px;
     line-height: 19px;
     color: #FFFFFF;
     text-decoration: none;
+    margin: 10px;
 }
 
 
@@ -92,9 +85,9 @@ table {
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
-    width: 155px;
+    width: 200px;
     border-left: 2px solid #fff;
-    padding-left: 15px;;
+    padding-left: 30px;
 }
 
 .header__contact{
@@ -118,14 +111,14 @@ table {
 .header__title{
     font-weight: normal;
     color: #D67E35;
-    margin-top: 203px;
+    margin-top: 150px;
     max-width: 500px;
 }
 
 .header__title h2{
     font-size: 50px;
     line-height: 57px;
-    margin-left: 24px;
+
 }
 
 .header__title h1{
@@ -138,9 +131,7 @@ table {
     line-height: 25px;
     color: #FFFFFF;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 12px;
+
 
 }
 
@@ -182,16 +173,14 @@ table {
 }
 
 .history{
-    height: 100vh;
+    height: 120vh;
     background-color: white;
     position: relative;
-    padding: 150px;
+    padding: 150px 0;
     text-align: center;
 }
 
 .history__top_item{
-    display: flex;
-    flex-direction: column;
     box-shadow: 10px 10px 40px 20px rgba(227, 227, 227, 0.27);
     background-color:white;
     padding: 20px;
@@ -199,7 +188,6 @@ table {
 
 .history__top{
     display: flex;
-    justify-content:space-evenly;
     position: absolute;
     top: -100px;
     width: 1200px;
@@ -208,8 +196,6 @@ table {
 }
 
 .history__top_item__image{
-    display: flex;
-    justify-content: center;
     margin-top: 50px;
 
 }
@@ -238,18 +224,10 @@ table {
 }
 
 .history__main{
-    margin-top: 200px;
-    margin-bottom:100px;
-    display: flex;
-    justify-content: space-between;
+    margin-top: 250px;
+    margin-bottom:200px;
 }
 
-.history__main_item{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-}
 
 .history__main_item h2{
     font-size: 54px;
@@ -264,13 +242,18 @@ table {
     text-align: center;
     color: #656363;
     margin-bottom: 50px;
+    height: 217px;
 }
 
 .history__main_item_left{
-    margin: 130px;
-    justify-content: center;
-    text-align: center;
+    margin-right: 100px;
+    width: 100%;
 }
+
+.history__main_item{
+    width: 100%;
+}
+
 
 .history__numbers{
     display: flex;
@@ -288,9 +271,10 @@ table {
 .history__numbers p{
     font-size: 20px;
     line-height: 27px;
-    text-align: center;
+    text-align: left;
     color: #000000;
     font-family: Open Sans;
+
 }
 
 .business_lunch{
